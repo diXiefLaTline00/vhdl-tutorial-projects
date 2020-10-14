@@ -1,0 +1,1 @@
+you could implement a km2 FIR filter [-1,2,-1] by using the arithmetic shift filter

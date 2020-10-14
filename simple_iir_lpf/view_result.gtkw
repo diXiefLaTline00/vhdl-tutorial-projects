@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sun May  3 16:12:38 2020
+[*]
+[dumpfile] "/home/pc/fpga/projects/simple_lpf_iir/results.vcd"
+[dumpfile_mtime] "Sun May  3 16:10:09 2020"
+[dumpfile_size] 219850
+[savefile] "/home/pc/fpga/projects/simple_lpf_iir/view_result.gtkw"
+[timestart] 0
+[size] 1853 1025
+[pos] -105 -105
+*-32.939453 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 223
+[signals_width] 110
+[sst_expanded] 1
+[sst_vpaned_height] 301
+@8420
+iir_lpf_tb.xin[15:0]
+@20001
+-
+@20000
+-
+@8420
+iir_lpf_tb.yout[15:0]
+@20000
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0

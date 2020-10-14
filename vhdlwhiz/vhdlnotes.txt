@@ -1,0 +1,36 @@
+notes: 
+vhdl notes: 
+
+    - vhdl constant: '0' or '1' bit value
+    - vhdl assignment operator Q <= A and B
+
+
+basics of fpga: 
+    - made up of two main components: block ram & logic elements
+    - logic elements: 
+        3 multiplexers
+        look up table 
+        flipflop
+
+- a LUT as N inputs, 1 output
+- LUTs are used to emulate logic gates
+
+- flipflop: stores input at the rising or falling edge of a clock signal, basic element or memory, outputs input
+    - inputs to a fliplop: 
+        - D: data input
+        - EN: enable input, locks last value, 1 => flipflop is running
+        - '-|>' symbol is the clock input
+        - SR: reset will set output to 0 on the next rising edge
+        - Q: sample and holds the data input at the rising edge of the clock
+
+- fpga synthesis: place & route
+    - vendor specific toolchain
+    - generic VHDL code will not match to logic primitives, so we structure our vhdl code to match these primitives
+    - chain: 
+        synthesis
+            takes as an input your vhdl code 
+        place and route
+            uses unrouted netlist and constraints file
+        generate bitmap
+            bitfile which programs the fpga
+        
